@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Kollektif;
+	src: url('Kollektif.ttf') format('truetype'),
+		 url('Kollektif.woff') format('woff'),
+		 url('Kollektif.woff2') format('woff2'),
+		 url('Kollektif.eot') format('embedded-opentype'),
+		 url('Kollektif.svg#Kollektif') format('svg');
+}
+
+@font-face {
+    font-family: Kollektif;
+    src: url("Kollektif-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+	margin:0px;
+	font-family: Kollektif;
+}
+
+#header {
+	background-color: #F7D19F;
+	height: 100vh;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+	font-size: 7em;
+ 	color: #3D2414;
+ 	margin-bottom: 10px;
+ 	text-align: center;
+ 	line-height: 95%;
+ 	position: absolute;
+    bottom: 450px;
+    font-style: bold;
+}
+
+#bear {
+	height: 450px;
+	position: absolute;
+    bottom: 0;
+}
+
+#directory {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+#directory a {
+	color: #3D2414;
+	text-decoration: none; 
+}
+
+#directory a:hover{
+	color: #F7D19F;
+}
+
+#content {
+	margin: 0px;
+	background-color: #f4f0ef;
+    overflow: hidden;
+}
+
+.lab {
+	width: 60%;
+	padding-bottom: 30px;
+    border-radius: 30px;
+    margin: 60px auto;
+    font-family: Muli;
+    padding-right: 10px;
+}
+
+
+.grey {
+	background-color: #686868;
+	color: white;
+}
+
+.peach {
+	background-color: #f7ceb2;
+	color: #3D2414;
+}
+
+h2 {
+	padding: 20px 0px 0px 20px;
+	font-size: 36px;
+	margin: 0px 0px 8px 0px;
+	font-family: Kollektif;
+}
+
+p {
+	padding: 0px 0px 0px 20px;
+	margin: 0px;
+}
+
+.grey a {
+	color: white;
+}
+
+.peach a {
+	color: black;
+}
+
+.buffer {
+	margin-bottom: 15px;
+}
